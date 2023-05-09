@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("Welcome to The Adventures of ___");
+﻿Console.WriteLine("Welcome to The Adventures of ___");
 Console.WriteLine("1. Start Game");
 Console.WriteLine("2. Options");
 Console.WriteLine("3. Quit");
