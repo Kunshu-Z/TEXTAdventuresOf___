@@ -101,6 +101,7 @@ if (menuSelect == "1")
             {
                 Console.WriteLine($"{myName}: No point in fighting that guy, I've got things to do, starting with my current area.");
                 Thread.Sleep(1000);
+                Console.WriteLine("            (To the sky for the Sabers)");
                 Console.WriteLine("Receptionist: Ad caelum pro gladiis, welcome to the Saber guild.");
             }
 
