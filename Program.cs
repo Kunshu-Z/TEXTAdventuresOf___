@@ -125,7 +125,35 @@ if (menuSelect == "1")
         {
             Thread.Sleep(1000);
             Console.WriteLine("HEY! YOU'RE NOT GETTING AWAY WITH THIS!");
-            Console.WriteLine("GUARDS! THIS PERSON HAS NOT PAYED FOR HIS MEAL! GET THEM!");
+            Console.WriteLine("GUARDS! THAT PERSON IS RUNNING AWAY WITHOUT HAVING PAYED THEIR MEAL! GET THEM!");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: *DARN! Now I have the guards on my tail*");
+            Thread.Sleep(1000);
+            Console.WriteLine("Distant voice: I thought you were gonna throw away those potions. They're far too dangerous to sell.");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: I'm starting to get exhausted...\n1. Turn yourself in\n Grab and throw a potion on the guards");
+            string selection3b = Console.ReadLine();
+
+            if (selection3b == "1")
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Guards: GET THEM!");
+                Console.WriteLine($"*The gaurds grab {myName} and sends them to prison.");
+            }
+
+            else if (selection3b == "2")
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("*Grabs and throws potion to the guards*");
+                Thread.Sleep(1000);
+                Console.WriteLine("Guards: ARGH! CAN'T SEE ANYTHING! SOMEONE GET THEM!");
+                Thread.Sleep(1000);
+                Console.WriteLine("Shop owner: Hey you have to pay for th-\n Where'd they go?!");
+                Thread.Sleep(1000);
+                Console.WriteLine("...");
+                Thread.Sleep(1000);
+                Console.WriteLine($"{myName}: *I've managed to escape the guards but it looks like I'm no longer safe in this village...");
+            }
         }
     }
 
