@@ -30,6 +30,7 @@ Console.WriteLine("...");
 Thread.Sleep(1000);
 Console.WriteLine("...");
 Thread.Sleep(1000);
+Console.WriteLine(" ");
 Console.WriteLine($"Welcome to The Adventures of {myName}");
 Console.WriteLine("1. Start Game");
 Console.WriteLine("2. Options");
@@ -45,7 +46,7 @@ if (menuSelect == "1")
     Thread.Sleep(1000);
     Console.WriteLine("...");
     Thread.Sleep(1000);
-    Console.WriteLine("*Inaudable noise*");
+    Console.WriteLine("*Inaudible noise*");
     Thread.Sleep(1000);
     Console.WriteLine("Ugh, what happened?");
     Thread.Sleep(1000);
