@@ -91,6 +91,42 @@ if (menuSelect == "1")
         Thread.Sleep(1000);
         Console.WriteLine("Now that I have some money, I guess I should get some food.\nI'm starving...");
         Thread.Sleep(1000);
+        Console.WriteLine("*Enters Restaurant...*");
+        Thread.Sleep(1000);
+        Console.WriteLine("Waiter: Welcome to the Dragon's Den! What would you like to have today?");
+        Thread.Sleep(1000);
+        Console.WriteLine($"{myName}: Just give me the cheapest meal you have.");
+        Thread.Sleep(1000);
+        Console.WriteLine("Waiter: Right, that's one Dragon style BLT. It will be ready shortly.");
+        Thread.Sleep(1000);
+        Console.WriteLine("*After having the food*");
+        Thread.Sleep(1000);
+        Console.WriteLine("Waiter: Right, your total comes to 500G.\n1. Pay the bill\n2. Dine and Dash");
+        string selection1b = Console.ReadLine();
+        if (selection1b == "1") 
+        {  
+            Thread.Sleep(1000);
+            Console.WriteLine("Thank you for eating at Dragon's Den! Have a nice day!");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: Well, now I'm out of gold...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Random strangers from afar: Man, I'm all out of gold, and we're running out of food to eat");
+            Thread.Sleep(1000);
+            Console.WriteLine("Why don't you go to the guild? I've heard they give those with no gold a benefit");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: *Huh, the Guild?*");
+            Thread.Sleep(1000);
+            Console.WriteLine("Random strangers from afar: Woah really? I'll go there now!");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: I've gotta follow him there.");
+        }
+
+        else if (selection1b == "2") 
+        {
+            Thread.Sleep(1000);
+            Console.WriteLine("HEY! YOU'RE NOT GETTING AWAY WITH THIS!");
+            Console.WriteLine("GUARDS! THIS PERSON HAS NOT PAYED FOR HIS MEAL! GET THEM!");
+        }
     }
 
 }
