@@ -77,7 +77,27 @@ if (menuSelect == "1")
         Thread.Sleep(1000);
         Console.WriteLine("Stranger: Oh, you're a newcomer huh? Well, this is Saber village.");
         Thread.Sleep(1000);
-        Console.WriteLine("We're currently in the market area, so it's not the best place to get information here. Go and visit the Saber Guild.");
+        Console.WriteLine("We're currently in the market area, so it's not the best place to get information here. Go and visit the Saber Guild just down the road, they'll help you out.\n1. Go over to the Saber Guild \n2. Insult the man ");
+        string selection1a = Console.ReadLine();
+        if (selection1a == "1")
+        {
+            Console.WriteLine($"{myName}: Thanks stranger, I'll head over to the guild right now!");
+            Thread.Sleep(1000);
+            Console.WriteLine("Stranger: You're welcome, take care now.");
+            Thread.Sleep(1000);
+            Console.WriteLine("You walk to the building with the huge sign down the road and walk to the door.");
+            Thread.Sleep(1000);
+            Console.WriteLine("Suddenly a large bulky man bursts through, shoving you to the ground.");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: Arrgh watch i- WOAH YOU'RE HUGE!!!");
+            Thread.Sleep(1000);
+            Console.WriteLine("Man: Hmph...");
+            Thread.Sleep(1000);
+            Console.WriteLine("It was so sudden, the man just starts walking away");
+            Thread.Sleep(1000);
+            Console.WriteLine("Your self esteem suddenly dropped to a new low,\n will you let this man just walk away after what he did?\n 1. Suck it up and walk into the Saber Guild \n 2. Attack the man from behind!");
+            Console.ReadLine();
+        }
     }
 
     //Dark option one
@@ -101,7 +121,7 @@ if (menuSelect == "1")
         Thread.Sleep(1000);
         Console.WriteLine("*After having the food*");
         Thread.Sleep(1000);
-        Console.WriteLine("Waiter: Right, your total comes to 500G.\n1. Pay the bill\n2. Dine and Dash");
+        Console.WriteLine("Waiter: Right, your total comes to 500G.\n1. Pay the bill\n2. Dine n' Dash!");
         string selection1b = Console.ReadLine();
         if (selection1b == "1") 
         {  
@@ -125,7 +145,7 @@ if (menuSelect == "1")
         {
             Thread.Sleep(1000);
             Console.WriteLine("HEY! YOU'RE NOT GETTING AWAY WITH THIS!");
-            Console.WriteLine("GUARDS! THAT PERSON IS RUNNING AWAY WITHOUT HAVING PAYED THEIR MEAL! GET THEM!");
+            Console.WriteLine("GUARDS! THAT PERSON IS RUNNING AWAY WITHOUT HAVING PAID FOR THEIR MEAL! GET THEM!");
             Thread.Sleep(1000);
             Console.WriteLine($"{myName}: *DARN! Now I have the guards on my tail*");
             Thread.Sleep(1000);
