@@ -50,7 +50,7 @@ if (menuSelect == "1")
     Thread.Sleep(1000);
     Console.WriteLine("*Inaudible noise*");
     Thread.Sleep(1000);
-    Console.WriteLine("Ugh, what happened?");
+    Console.WriteLine($"{myName}: Ugh, what happened?");
     Thread.Sleep(1000);
     Console.WriteLine("Where am I?");
     Thread.Sleep(1000);
@@ -68,23 +68,26 @@ if (menuSelect == "1")
     Thread.Sleep(1000);
     Console.WriteLine("*Approches person*");
     Thread.Sleep(1000);
-    Console.WriteLine("Oh, hello! What can I help you with?\n1. Inquire about the place\n2. Pickpocket ");
+    Console.WriteLine("Stranger: Oh, hello! What can I help you with?\n1. Inquire about the place\n2. Pickpocket ");
     string selection1 = Console.ReadLine();
 
     //Light option one
     if (selection1 == "1")
     {
-        Console.WriteLine("Oh, you're a newcomer huh? Well, this is Saber village.\n");
+        Thread.Sleep(1000);
+        Console.WriteLine("Stranger: Oh, you're a newcomer huh? Well, this is Saber village.");
+        Thread.Sleep(1000);
+        Console.WriteLine("We're currently in the market area, so it's not the best place to get information here. Go and visit the Saber Guild.");
     }
 
     //Dark option one
     else if (selection1 == "2")
     {
-        Console.WriteLine("Hey! What are you doing?! GET BACK HERE!");
+        Console.WriteLine("Stranger: Hey! What are you doing?! GET BACK HERE!");
         Thread.Sleep(1000);
         Console.WriteLine("*After reaching a safe space within the village...*");
         Thread.Sleep(1000);
-        Console.WriteLine("Right, looks like I'm away from him");
+        Console.WriteLine($"{myName}: Right, looks like I'm away from him");
         Thread.Sleep(1000);
         Console.WriteLine("Now that I have some money, I guess I should get some food.\nI'm starving...");
         Thread.Sleep(1000);
