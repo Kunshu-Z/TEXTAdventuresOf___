@@ -19,7 +19,7 @@ Console.WriteLine("*A sweeping breeze hits the back of your head*");
 Thread.Sleep(1000);
 Console.WriteLine("*You come to a revelation*");
 Thread.Sleep(1000);
-Console.WriteLine("My name... It's - ");
+Console.WriteLine("My name... It's - \n (type your name here)";
 string myName = Console.ReadLine();
 Console.WriteLine($"My name... It's {myName} ");
 Thread.Sleep(1000);
