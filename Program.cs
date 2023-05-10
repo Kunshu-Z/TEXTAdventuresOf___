@@ -96,7 +96,7 @@ if (menuSelect == "1")
             Console.WriteLine("It was so sudden, the man just starts walking away");
             Thread.Sleep(1000);
             Console.WriteLine("Your self esteem suddenly dropped to a new low,\n will you let this man just walk away after what he did?\n 1. Suck it up and walk into the Saber Guild \n 2. Attack the man from behind!");
-            Console.ReadLine();
+            string selection1c = Console.ReadLine();
         }
     }
 
@@ -152,16 +152,16 @@ if (menuSelect == "1")
             Console.WriteLine("Distant voice: I thought you were gonna throw away those potions. They're far too dangerous to sell.");
             Thread.Sleep(1000);
             Console.WriteLine($"{myName}: I'm starting to get exhausted...\n1. Turn yourself in\n Grab and throw a potion on the guards");
-            string selection3b = Console.ReadLine();
+            string selection2b = Console.ReadLine();
 
-            if (selection3b == "1")
+            if (selection2b == "1")
             {
                 Thread.Sleep(1000);
                 Console.WriteLine("Guards: GET THEM!");
                 Console.WriteLine($"*The gaurds grab {myName} and sends them to prison.");
             }
 
-            else if (selection3b == "2")
+            else if (selection2b == "2")
             {
                 Thread.Sleep(1000);
                 Console.WriteLine("*Grabs and throws potion to the guards*");
