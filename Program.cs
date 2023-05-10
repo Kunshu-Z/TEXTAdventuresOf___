@@ -97,6 +97,16 @@ if (menuSelect == "1")
             Thread.Sleep(1000);
             Console.WriteLine("Your self esteem suddenly dropped to a new low,\n will you let this man just walk away after what he did?\n1. Suck it up and walk into the Saber Guild \n2. Attack the man from behind!");
             string selection1c = Console.ReadLine();
+            if (selection1c == "1") {
+                Console.WriteLine($"{myName}: No point in fighting that guy, I've got things to do, starting with my current area.");
+                Thread.Sleep(1000);
+                Console.WriteLine("Receptionist: Ad caelum pro gladiis, welcome to the Saber guild.");
+            }
+
+            else if (selection1c == "2")
+            {
+                Console.WriteLine();
+            }
         }
 
         else if (selection1a == "2")
