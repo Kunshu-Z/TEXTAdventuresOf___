@@ -1,5 +1,6 @@
 ﻿using System.Threading;
 
+//Initial dialogue for the player to input their name and change the title
 Console.WriteLine("...");
 Thread.Sleep(1000);
 Console.WriteLine("'Light'");
@@ -31,6 +32,7 @@ Thread.Sleep(1000);
 Console.WriteLine("...");
 Thread.Sleep(1000);
 Console.WriteLine(" ");
+//Game uses player's inputted name as the title
 Console.WriteLine($"Welcome to The Adventures of {myName}");
 Console.WriteLine("1. Start Game");
 Console.WriteLine("2. Options");
@@ -69,11 +71,13 @@ if (menuSelect == "1")
     Console.WriteLine("Oh, hello! What can I help you with?\n1. Inquire about the place\n2. Pickpocket ");
     string selection1 = Console.ReadLine();
 
+    //Light option one
     if (selection1 == "1")
     {
         Console.WriteLine("Oh, you're a newcomer huh? Well, this is Saber village.\n");
     }
 
+    //Dark option one
     else if (selection1 == "2")
     {
         Console.WriteLine("Hey! What are you doing?! GET BACK HERE!");
@@ -101,5 +105,3 @@ else if (menuSelect == "3")
     Console.WriteLine("Thank you for visiting ___!");
 }
    
-//ijdjewidjediejdiwjee
-// check this is from cloned
