@@ -19,7 +19,7 @@ Console.WriteLine("*A sweeping breeze hits the back of your head*");
 Thread.Sleep(1000);
 Console.WriteLine("*You come to a revelation*");
 Thread.Sleep(1000);
-Console.WriteLine("My name... It's - \n (type your name here)";
+Console.WriteLine("My name... It's - \n (type your name here)");
 string myName = Console.ReadLine();
 Console.WriteLine($"My name... It's {myName} ");
 Thread.Sleep(1000);
@@ -95,9 +95,46 @@ if (menuSelect == "1")
             Thread.Sleep(1000);
             Console.WriteLine("It was so sudden, the man just starts walking away");
             Thread.Sleep(1000);
-            Console.WriteLine("Your self esteem suddenly dropped to a new low,\n will you let this man just walk away after what he did?\n 1. Suck it up and walk into the Saber Guild \n 2. Attack the man from behind!");
+            Console.WriteLine("Your self esteem suddenly dropped to a new low,\n will you let this man just walk away after what he did?\n1. Suck it up and walk into the Saber Guild \n2. Attack the man from behind!");
             string selection1c = Console.ReadLine();
         }
+
+        else if (selection1a == "2")
+        {
+            Console.WriteLine($"{myName}: Maybe I will go to that guild, but only if I want to waste my time!\n I bet I could find that beast that knocked me out without their help!");
+            Thread.Sleep(2000);
+            Console.WriteLine("Stranger: Wha- well excuse me, how dare you insult our village's bastion against the darkness, \nI think you should leave right now and never return!");
+            Thread.Sleep(1000);
+            Console.WriteLine($"{myName}: Well then, disgrace me and kick me out? \nThen you're not invited to my banquet when I become super powerful, fine I'll just leave.");
+            Thread.Sleep(1000);
+            Console.WriteLine("I'll take my power and make my own story. When I find this place again I'm coming for you!");
+            Thread.Sleep(1000);
+            Console.WriteLine("Stranger: I've had about enough of you, GUARDS!");
+            Thread.Sleep(1000);
+            Console.WriteLine("(maybe I shouldn't have done that)\nYou start running and notice a potions stand nearby, you're also quite tired.\n1. Turn yourself in \n2. Throw a potion at the guards");
+            string selection1d = Console.ReadLine();
+            if (selection1d == "1")
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Guards: GET THEM!");
+                Console.WriteLine($"*The guards grab {myName} and sends them to prison.");
+            }
+
+            else if (selection1d == "2")
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("*Grabs and throws potion to the guards*");
+                Thread.Sleep(1000);
+                Console.WriteLine("Guards: ARGH! CAN'T SEE ANYTHING! SOMEONE GET THEM!");
+                Thread.Sleep(1000);
+                Console.WriteLine("Shop owner: Hey you have to pay for th-\n Where'd they go?!");
+                Thread.Sleep(1000);
+                Console.WriteLine("...");
+                Thread.Sleep(1000);
+                Console.WriteLine($"{myName}: *I've managed to escape the guards but it looks like I'm no longer safe in this village...");
+            }
+        }
+
     }
 
     //Dark option one
@@ -123,8 +160,8 @@ if (menuSelect == "1")
         Thread.Sleep(1000);
         Console.WriteLine("Waiter: Right, your total comes to 500G.\n1. Pay the bill\n2. Dine n' Dash!");
         string selection1b = Console.ReadLine();
-        if (selection1b == "1") 
-        {  
+        if (selection1b == "1")
+        {
             Thread.Sleep(1000);
             Console.WriteLine("Thank you for eating at Dragon's Den! Have a nice day!");
             Thread.Sleep(1000);
@@ -141,7 +178,7 @@ if (menuSelect == "1")
             Console.WriteLine($"{myName}: I've gotta follow him there.");
         }
 
-        else if (selection1b == "2") 
+        else if (selection1b == "2")
         {
             Thread.Sleep(1000);
             Console.WriteLine("HEY! YOU'RE NOT GETTING AWAY WITH THIS!");
@@ -158,7 +195,7 @@ if (menuSelect == "1")
             {
                 Thread.Sleep(1000);
                 Console.WriteLine("Guards: GET THEM!");
-                Console.WriteLine($"*The gaurds grab {myName} and sends them to prison.");
+                Console.WriteLine($"*The guards grab {myName} and sends them to prison.");
             }
 
             else if (selection2b == "2")
@@ -191,4 +228,4 @@ else if (menuSelect == "3")
 {
     Console.WriteLine("Thank you for visiting ___!");
 }
-   
+
