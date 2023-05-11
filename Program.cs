@@ -103,6 +103,47 @@ if (menuSelect == "1")
                 Thread.Sleep(1000);
                 Console.WriteLine("            (To the sky for the Sabers)");
                 Console.WriteLine("Receptionist: Ad caelum pro gladiis, welcome to the Saber guild.");
+                Thread.Sleep(1000);
+                Console.WriteLine($"{myName}: Um ok so do you have a map or something around here?");
+                Thread.Sleep(1000);
+                Console.WriteLine("*The Receptionist points to a wall with a highly embellished grand continental map*");
+                Thread.Sleep(1000);
+                Console.WriteLine("Receptionist: Right there");
+                Thread.Sleep(1000);
+                Console.WriteLine($"{myName}: Oh ok thanks then");
+                Thread.Sleep(1000);
+                Console.WriteLine($"{myName} inspects the map carefully, an open field where you may have blacked out.");
+                Thread.Sleep(1000);
+                Console.WriteLine("You find two open fields on the map; Old Saber battlefield and the Sea of Wheat");
+                Thread.Sleep(1000);
+                Console.WriteLine("Clearly an open abandoned battlefield may have some beasts roaming around but who knows,\n maybe the Sea of Wheat might have some clues, it's a small world after all.");
+                Thread.Sleep(1000);
+                Console.WriteLine("1. Choose to go to the Old Saber Battlefield \n2. Choose to go to the Sea of Wheat");
+                string selection1e = Console.ReadLine();
+                if (selection1e == "1")
+                {
+                    Console.WriteLine($"{myName} chooses to go to the Old Saber Battlefield, a remnant of a more chaotic age for the Sabers\nwho attacked each other in a bloody civil war, {myName} realizes the dangers and needs a weapon.");
+                    Thread.Sleep(1000);
+                    Console.WriteLine($"{myName}: Excuse me miss receptionist, I might not be a member of the guild but do you have any weapons I could use for my journey?");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Receptionist: Certainly, we have 2 lost weapons in our posession, they weren't claimed by their owners so you may have one.");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("She points to a slightly rusted sword and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
+                    string selection1f = Console.ReadLine();
+                
+                }
+                else if (selection1e == "2")
+                {
+                    Console.WriteLine($"{myName} chooses to go to the Sea of Wheat, no description was provided in the map legend for this place so it's shrouded in mystery,\n {myName} doesn't really see any danger in this place but needs a weapon just in case.");
+                    Thread.Sleep(1000);
+                    Console.WriteLine($"{myName}: Excuse me miss receptionist, I might not be a member of the guild but do you have any weapons I could use for my journey?");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Receptionist: Certainly, we have 2 lost weapons in our posession, they weren't claimed by their owners so you may have one.");
+                    Thread.Sleep(1000);
+                    Console.WriteLine("She points to a slightly rusted sword and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
+                    string selection1f = Console.ReadLine();
+
+                }
             }
 
             else if (selection1c == "2")
