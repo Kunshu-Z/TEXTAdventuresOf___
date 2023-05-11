@@ -66,7 +66,7 @@ if (menuSelect == "1")
     Thread.Sleep(1000);
     Console.WriteLine("I gotta ask someone about this place");
     Thread.Sleep(1000);
-    Console.WriteLine("*Approches person*");
+    Console.WriteLine("*Approaches person*");
     Thread.Sleep(1000);
     Console.WriteLine("Stranger: Oh, hello! What can I help you with?\n1. Inquire about the place\n2. Pickpocket ");
     string selection1 = Console.ReadLine();
@@ -172,7 +172,7 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine($"The beast charges into {myName}, making them fall over");
                             Thread.Sleep(1000);
-                            Console.WriteLine("The beast fires a needle from it's tail, it misses. \nIt tries again, it won't miss this time. \n1. Pull up the shield \nPanic and Roll");
+                            Console.WriteLine("The beast fires a needle from it's tail, it misses. \nIt tries again, it won't miss this time. \n1. Pull up the shield \n2. Panic and Roll");
                             string fight2 = Console.ReadLine();
                             if (fight2 == "1")
                             {
@@ -196,7 +196,7 @@ if (menuSelect == "1")
                                         Thread.Sleep(1000);
                                         Console.WriteLine("The beast flies up and back down to charge into you!");
                                         Thread.Sleep(1000);
-                                        Console.WriteLine("You must grab onto the beast or else it'll just keep firing needles from the air, out of your reach.  Which side will you grab on from? \n1. Left Side \n2.Right side");
+                                        Console.WriteLine("You must grab onto the beast or else it'll just keep firing needles from the air, out of your reach.  Which side will you grab on from? \n1. Left Side \n2. Right side");
                                         string fight5 = Console.ReadLine();
                                         if (fight5 == "1")
                                         {
