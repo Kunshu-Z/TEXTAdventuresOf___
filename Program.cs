@@ -128,7 +128,7 @@ if (menuSelect == "1")
                     Thread.Sleep(1000);
                     Console.WriteLine("Receptionist: Certainly, we have 2 lost weapons in our posession, they weren't claimed by their owners so you may have one.");
                     Thread.Sleep(1000);
-                    Console.WriteLine("She points to a slightly rusted sword and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
+                    Console.WriteLine("She points to a slightly rusted sword (a saber to be exact) and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
                     string selection1f = Console.ReadLine();
                 
                 }
@@ -140,7 +140,7 @@ if (menuSelect == "1")
                     Thread.Sleep(1000);
                     Console.WriteLine("Receptionist: Certainly, we have 2 lost weapons in our posession, they weren't claimed by their owners so you may have one.");
                     Thread.Sleep(1000);
-                    Console.WriteLine("She points to a slightly rusted sword and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
+                    Console.WriteLine("She points to a slightly rusted sword (a saber to be exact) and an unremarkable bow and a quiver of 20 arrows.\n1. Choose the sword \n2. Choose the Bow");
                     string selection1f = Console.ReadLine();
 
                 }
