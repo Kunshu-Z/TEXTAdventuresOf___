@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 
 //Initial dialogue for the player to input their name and change the title
 Console.WriteLine("...");
@@ -250,7 +251,7 @@ if (menuSelect == "1")
                                         Thread.Sleep(1000);
                                         Console.WriteLine("You slash at its leg, causing a large gash to appear.");
                                         Thread.Sleep(1000);
-                                        Console.WriteLine("Suddenly overcome by bloodlust, you slash at the beast some more even getting your sword \nstuck in its neck,");
+                                        Console.WriteLine("Suddenly overcome by bloodlust, you slash at the beast some more even getting your sword, \nthen giving a final stab in its eye");
                                         Thread.Sleep(1000);
                                         Console.WriteLine("The beast is now in a rage, gurgling roars pierce your ears.");
                                         Thread.Sleep(1000);
@@ -306,7 +307,113 @@ if (menuSelect == "1")
                                 }
                                 else if (fight3 == "2")
                                 {
+                                    Console.WriteLine("You slash at its face twice.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The skin is hard and scaly but you manage to get a cut in.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast turns its head away but then...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("Time slows right as its left eye is facing you, perhaps due to simply being in the moment, \nyou should probably attack... \n1. Stab its eye \n2. Slash at its closest leg");
+                                    string fight4 = Console.ReadLine();
+                                    if (fight4 == "1")
+                                    {
+                                        Console.WriteLine("You stab your sword into its eye.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The eye is thick but it works, the sword stabbed through, but you let go!.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast roars then makes no more movement");
+                                        Thread.Sleep(5000);
+                                        Console.WriteLine("And then...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast stands up again! ");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the beasts's armor breaks off, revealing splendid black wings.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast flies up with the sword still in its left and back down to charge into you!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("You must grab onto the beast, but which side?  \n1. Left side \n2. LEFT SIDE");
+                                        string fight5 = Console.ReadLine();
+                                        if (fight5 == "1" || fight5 == "2")
+                                        {
+                                            Console.WriteLine($"{myName} dodges to their right and grab on its left where the sword in its eye was stuck");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("The beast flies east of the battlefield. Back to the village! You realize this beast must be killed now.");
+                                            Thread.Sleep(4000);
+                                            Console.WriteLine("You push the sword even more while struggling to hold on, \nthe beast falls a little but still has a some strength to fly.");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("For a split second");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("You and the beast starts falling into the market place, it roars and then...");
+                                            Thread.Sleep(500);
+                                            Console.WriteLine("THUD!!!");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("Stalls are squashed under the beast and needles fly into the sky in a final reflex from its tail, \neveryone in the village ducks for cover.");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"The beast is dead, {myName} yet lives");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"A sinister bony cackle is heard faintly, is this another villain? {myName} didn't care, right now they were a hero.");
+                                        }
+                                    }
 
+                                    else if (fight4 == "2")
+                                    {
+                                        Console.WriteLine("Well you could've done more damage to it the other way but this is fine too.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("You slash at its leg, causing a large gash to appear.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly overcome by bloodlust, you slash at the beast some more even getting your sword, \nthen giving a final stab in its eye.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast is now in a rage, gurgling roars pierce your ears.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the beasts's armor breaks off, revealing splendid black wings.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast flies up and back down to charge into you!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("You must grab onto the beast or else it'll just keep firing needles from the air, out of your reach.  Which side will you grab on from? \n1. Left Side \n2. Right side");
+                                        string fight5 = Console.ReadLine();
+                                        if (fight5 == "1")
+                                        {
+                                            Console.WriteLine($"{myName} dodges to their right and grab on its left");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("The beast flies east of the battlefield. Back to the village! You realize this beast must be killed now.");
+                                            Thread.Sleep(4000);
+                                            Console.WriteLine("You push in the sword while struggling to hold on, \nthe beast falls a little but still has some strength to fly.");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("For a split second");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("You and the beast starts falling into the market place, it roars and then...");
+                                            Thread.Sleep(500);
+                                            Console.WriteLine("THUD!!!");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("Stalls are squashed under the beast and needles fly into the sky in a final reflex from its tail, \neveryone in the village ducks for cover.");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"The beast is dead, {myName} yet lives");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"A sinister bony cackle is heard faintly, is this another villain? {myName} didn't care, right now they were a hero.");
+                                        }
+                                        else if (fight5 == "2")
+                                        {
+                                            Console.WriteLine($"{myName} dodges to their left and grab on its right.");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"The beast does a barrel roll! {myName} was flung onto it's left side where the sword was stuck!");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("The beast flies east of the battlefield. Back to the village! You realize this beast must be killed now.");
+                                            Thread.Sleep(4000);
+                                            Console.WriteLine("You push in the sword while struggling to hold on, \nthe beast falls a little but still has some strength to fly.");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("For a split second");
+                                            Thread.Sleep(3000);
+                                            Console.WriteLine("You and the beast starts falling into the market place, it roars and then...");
+                                            Thread.Sleep(500);
+                                            Console.WriteLine("THUD!!!");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine("Stalls are squashed under the beast and needles fly into the sky in a final reflex from its tail, \neveryone in the village ducks for cover.");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"The beast is dead, {myName} yet lives");
+                                            Thread.Sleep(1000);
+                                            Console.WriteLine($"A sinister bony cackle is heard faintly, is this another villain? {myName} didn't care, right now they were a hero.");
+                                        }
+                                    }
                                 }
                             } 
                         }
@@ -402,7 +509,7 @@ if (menuSelect == "1")
                                         Thread.Sleep(1000);
                                         Console.WriteLine("The beast flies east of the battlefield. Back to the village! You realize this beast must be killed now.");
                                         Thread.Sleep(4000);
-                                        Console.WriteLine("You push in the arrow even more while struggling to hold on, \nthe beast falls a little but still has a some strength to fly.");
+                                        Console.WriteLine("You push the arrow even more while struggling to hold on, \nthe beast falls a little but still has a some strength to fly.");
                                         Thread.Sleep(3000);
                                         Console.WriteLine("For a split second");
                                         Thread.Sleep(3000);
