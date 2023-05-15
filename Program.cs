@@ -816,7 +816,7 @@ if (menuSelect == "1")
                                     {
                                         Console.WriteLine("You run up to the beast's left eye and stab it deep indeed, nearly to the brain");
                                         Thread.Sleep(1000);
-                                        Console.WriteLine("The beast roars then makes no more movement, what a loser");
+                                        Console.WriteLine("The beast roars then makes no more movement, what an embarrassment");
                                         Thread.Sleep(5000);
                                         Console.WriteLine("And then...");
                                         Thread.Sleep(1000);
