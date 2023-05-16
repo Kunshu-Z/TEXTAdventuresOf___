@@ -659,7 +659,15 @@ if (menuSelect == "1")
 
                         else if (fight1 == "2")
                         {
-
+                            Console.WriteLine($"The absolutely terrified {myName} starts running away from the battle field, back the way they came.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("You run a short distance but then the beast gives chase.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The beast's armor then breaks off and reveals splendid black wings.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The beast jumps high into the air and swoops down");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("It will soon swoop back down and grab you but there's still time! Do Something! \n1. Lie flat on the ground \n2. Keep running in a straight line ");
                         }
                     }
 
