@@ -163,7 +163,7 @@ if (menuSelect == "1")
                         Thread.Sleep(1000);
                         Console.WriteLine("You pick a shield to inspect it, holding it up to your face you suddenly feel a large thud on the face of the shield.");
                         Thread.Sleep(1000);
-                        Console.WriteLine("A sharp needle pierced the shield, bewildered, you look up and see a huge beast a tail with needles at the end, \na face like a lizard, almost draconic, \na body like a horse, with plates of armor, \nit's legs were like a huge cat, nimble.");
+                        Console.WriteLine("A sharp needle pierced the shield, bewildered, you look up and see a huge beast a tail with needles at the end, \na face like a lizard, almost draconic, \na body like a horse, with plates of armor, \nit's legs were like a huge cat with talons like an eagle.");
                         Thread.Sleep(4000);
                         Console.WriteLine("Don't just stand there! Do something! \n1. Fight the beast \n2. Run away in fear");
                         string fight1 = Console.ReadLine();
@@ -668,6 +668,48 @@ if (menuSelect == "1")
                             Console.WriteLine("The beast jumps high into the air and swoops down");
                             Thread.Sleep(1000);
                             Console.WriteLine("It will soon swoop back down and grab you but there's still time! Do Something! \n1. Lie flat on the ground \n2. Keep running in a straight line ");
+                            string fight2 = Console.ReadLine();
+                            if (fight2 == "1")
+                            {
+                                Console.WriteLine("You lie flat on the ground and wait for the flying beast to pass over you...");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("It did not");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"It picks {myName} up by its talons like a gull catches its fish");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You're binded and can't move any of your limbs while in the beast's grasp so you can only do one thing. \n1. Wait \n2. Wait");
+                                string fight3 = Console.ReadLine();
+                                if (fight3 == "1" | fight3 =="2")
+                                {
+                                    Console.WriteLine("Your fate being determined by how much an almagamation \nof a beast is holding you is quite embarrassing.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast nears the village at speeds way faster than you walked, \nit took only 5 minutes compared to your three and a half hours.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast now hovers over the village, villagers terrified and saber guards emerging from their posts.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: HEY! GUARDS! HELP!");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The guards use their arrows at the beast and the beast roars.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The arrows pierce the beast's neck, causing it to loosen its grip on you. You have enough time to take your arms out.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("You notice an arrow you can reach close to the beast's belly, you could cause some real damage with it! \n1. Twist the arrow out. \n2. Push the arrow in deeper.");
+                                    string fight4 = Console.ReadLine();
+                                    if (fight4 == "1")
+                                    {
+
+                                    }
+                                    else if (fight4 == "2")
+                                    {
+
+                                    }
+                                }
+
+                            }
+                            else if (fight2 == "2")
+                            {
+
+                            }
                         }
                     }
 
@@ -703,7 +745,7 @@ if (menuSelect == "1")
                         Thread.Sleep(1000);
                         Console.WriteLine("You pick a shield to inspect it, holding it up to your face you suddenly feel a large thud on the face of the shield.");
                         Thread.Sleep(1000);
-                        Console.WriteLine("A sharp needle pierced the shield, bewildered, you look up and see a huge beast a tail with needles at the end, \na face like a lizard, almost draconic, \na body like a horse, with plates of armor, \nit's legs were like a huge cat, nimble.");
+                        Console.WriteLine("A sharp needle pierced the shield, bewildered, you look up and see a huge beast a tail with needles at the end, \na face like a lizard, almost draconic, \na body like a horse, with plates of armor, \nit's legs were like a huge cat with eagle like talons.");
                         Thread.Sleep(4000);
                         Console.WriteLine("Don't just stand there! Do something! \n1. Fight the beast \n2. Run away in fear");
                         string fight1 = Console.ReadLine();
@@ -727,7 +769,7 @@ if (menuSelect == "1")
                                 Thread.Sleep(1000);
                                 Console.WriteLine("A fired needle gets stuck in your leg, it's very painful");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("The beast then rears onto its hind legs and prepares to slash at you with its cat-like claws.");
+                                Console.WriteLine("The beast then rears onto its hind legs and prepares to slash at you with its bird-like claws.");
                                 Console.WriteLine("Time slows, perhaps due to simply being in the moment, you should probably attack... \n1. Quickly fire an arrow into its exposed neck \n2. Get up and and push into it while its unstable");
                                 string fight3 = Console.ReadLine();
                                 if (fight3 == "1")
