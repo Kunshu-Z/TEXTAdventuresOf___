@@ -697,18 +697,202 @@ if (menuSelect == "1")
                                     string fight4 = Console.ReadLine();
                                     if (fight4 == "1")
                                     {
-
+                                        Console.WriteLine("You twist the arrow and yank the arrow out from the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Then, in desparation to reach solid ground you repeatedly stab the beast to the point it has \nlittle strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
                                     }
                                     else if (fight4 == "2")
                                     {
-
+                                        Console.WriteLine("You push the arrow deeper into the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast - weakened - had little strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
                                     }
                                 }
 
                             }
                             else if (fight2 == "2")
                             {
-
+                                Console.WriteLine("You keep running, hoping that you could just keep on till you find some better cover.");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("You did not");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"It picks {myName} up by its talons like a gull catches its fish");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You're binded and can't move any of your limbs while in the beast's grasp so you can only do one thing. \n1. Wait \n2. Wait");
+                                string fight3 = Console.ReadLine();
+                                if (fight3 == "1" | fight3 == "2")
+                                {
+                                    Console.WriteLine("Your fate being determined by how much an almagamation \nof a beast is holding you is quite embarrassing.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast nears the village at speeds way faster than you walked, \nit took only 5 minutes compared to your three and a half hours.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast now hovers over the village, villagers terrified and saber guards emerging from their posts.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: HEY! GUARDS! HELP!");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The guards use their arrows at the beast and the beast roars.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The arrows pierce the beast's neck, causing it to loosen its grip on you. You have enough time to take your arms out.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("You notice an arrow you can reach close to the beast's belly, you could cause some real damage with it! \n1. Twist the arrow out. \n2. Push the arrow in deeper.");
+                                    string fight4 = Console.ReadLine();
+                                    if (fight4 == "1")
+                                    {
+                                        Console.WriteLine("You twist the arrow and yank the arrow out from the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Then, in desparation to reach solid ground you repeatedly stab the beast to the point it has \nlittle strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                    else if (fight4 == "2")
+                                    {
+                                        Console.WriteLine("You push the arrow deeper into the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast - weakened - had little strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                }
                             }
                         }
                     }
@@ -1000,9 +1184,244 @@ if (menuSelect == "1")
                         }
                         else if (fight1 == "2")
                         {
-                            
+                            Console.WriteLine($"The absolutely terrified {myName} starts running away from the battle field, back the way they came.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("You run a short distance but then the beast gives chase.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The beast's armor then breaks off and reveals splendid black wings.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The beast jumps high into the air and swoops down");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("It will soon swoop back down and grab you but there's still time! Do Something! \n1. Lie flat on the ground \n2. Keep running in a straight line ");
+                            string fight2 = Console.ReadLine();
+                            if (fight2 == "1")
+                            {
+                                Console.WriteLine("You lie flat on the ground and wait for the flying beast to pass over you...");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("It did not");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"It picks {myName} up by its talons like a gull catches its fish");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You're binded and can't move any of your limbs while in the beast's grasp so you can only do one thing. \n1. Wait \n2. Wait");
+                                string fight3 = Console.ReadLine();
+                                if (fight3 == "1" | fight3 == "2")
+                                {
+                                    Console.WriteLine("Your fate being determined by how much an almagamation \nof a beast is holding you is quite embarrassing.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast nears the village at speeds way faster than you walked, \nit took only 5 minutes compared to your three and a half hours.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast now hovers over the village, villagers terrified and saber guards emerging from their posts.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: HEY! GUARDS! HELP!");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The guards use their arrows at the beast and the beast roars.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The arrows pierce the beast's neck, causing it to loosen its grip on you. You have enough time to take your arms out.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("You notice an arrow you can reach close to the beast's belly, you could cause some real damage with it! \n1. Twist the arrow out. \n2. Push the arrow in deeper.");
+                                    string fight4 = Console.ReadLine();
+                                    if (fight4 == "1")
+                                    {
+                                        Console.WriteLine("You twist the arrow and yank the arrow out from the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Then, in desparation to reach solid ground you repeatedly stab the beast to the point it has \nlittle strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                    else if (fight4 == "2")
+                                    {
+                                        Console.WriteLine("You push the arrow deeper into the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast - weakened - had little strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                }
+
+                            }
+                            else if (fight2 == "2")
+                            {
+                                Console.WriteLine("You keep running, hoping that you could just keep on till you find some better cover.");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("You did not");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"It picks {myName} up by its talons like a gull catches its fish");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You're binded and can't move any of your limbs while in the beast's grasp so you can only do one thing. \n1. Wait \n2. Wait");
+                                string fight3 = Console.ReadLine();
+                                if (fight3 == "1" | fight3 == "2")
+                                {
+                                    Console.WriteLine("Your fate being determined by how much an almagamation \nof a beast is holding you is quite embarrassing.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast nears the village at speeds way faster than you walked, \nit took only 5 minutes compared to your three and a half hours.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The beast now hovers over the village, villagers terrified and saber guards emerging from their posts.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: HEY! GUARDS! HELP!");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The guards use their arrows at the beast and the beast roars.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The arrows pierce the beast's neck, causing it to loosen its grip on you. You have enough time to take your arms out.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("You notice an arrow you can reach close to the beast's belly, you could cause some real damage with it! \n1. Twist the arrow out. \n2. Push the arrow in deeper.");
+                                    string fight4 = Console.ReadLine();
+                                    if (fight4 == "1")
+                                    {
+                                        Console.WriteLine("You twist the arrow and yank the arrow out from the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Then, in desparation to reach solid ground you repeatedly stab the beast to the point it has \nlittle strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                    else if (fight4 == "2")
+                                    {
+                                        Console.WriteLine("You push the arrow deeper into the beast.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The beast - weakened - had little strength to stay afloat.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The guards then fire a large harpoon into the beast to bring it down, and with a crash it fell into the market square.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}, stunned, gets up and feels dizzy, they can hear a voice in their head.");
+                                        Thread.Sleep(3000);
+                                        Console.WriteLine("...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The Voice: Coward");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} hazily asks: Who... said that?");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice then comes from behind.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: COWARD!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: Is this because I ran? What else was I meant to do? That beast was huge!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("Suddenly the voice sounded calm \nThe voice: That beast, was my beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}: That beast tried to kill me, so it was self defence!");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: What was taken, must be compensated...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"Suddenly a menacing skeletal figure appears right in front of {myName}");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: I need a new beast...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The voice: This world is full of cowards, but none as much as you.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                        Thread.Sleep(1000);
+                                        Console.WriteLine("A roar");
+                                    }
+                                }
+                            }
                         }
                     }
+                    
                 }
                 else if (selection1e == "2")
                 {
@@ -1016,7 +1435,64 @@ if (menuSelect == "1")
                     string selection1f = Console.ReadLine();
                     if (selection1f == "1")
                     {
-
+                        Console.WriteLine($"{myName} picks up the sword, takes a minimap, thanks the receptionist, \nand goes on their merry way to the Sea of Wheat due east from the village.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("Hour One");
+                        Console.WriteLine("On the road you pass an old manor, abandoned and desolate.");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Two");
+                        Console.WriteLine("You get tired and rest beside a tree trunk, the sun shines still in the early afternoon.");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Three");
+                        Console.WriteLine("You get back up and continue, you come across an abandoned wooden ale keg, only some putrid smelling water inside");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Three and a half");
+                        Console.WriteLine("You come to what seems to be a literal Sea of Wheat.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("It's a quiet place with only wheat as far as the eye can see...");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("(Is this really just a farm?)");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("...");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("Suddenly you surge with anger.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine($"{myName}: Three and a half hours for a farm? Really!?");
+                        Thread.Sleep(1000);
+                        Console.WriteLine($"{myName} needs to let that anger loose, but how? 1. Slash at the wheat \n2. Tear the wheat from their roots");
+                        string wheat1 = Console.ReadLine();
+                        if (wheat1 == "1"| wheat1 == "2")
+                        {
+                            Console.WriteLine("After at least an hour of rampaging through the Sea of Wheat, suddenly all the golden wheat turns white, \na burning white, and then.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("HEY! COME HERE");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("A tall figure starts moving towards you in the Sea of White");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The heat intensifies as he gets closer");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: Wh- who are you!?");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The figure: Me? They call me many names - The Piercer, The Puncturer, The Poker - no one has ever known my true name, \nand neither will you, I've given up that life.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The P: Tresspasser, why are you destroying my crops? I've been living here for so long, are you not afraid? \nTo meet the man I once was?");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: I don't even know who you are.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Then maybe I should give you a taste of my power!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: With what? You have no weapons! You're wearing nothing but a loincloth!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Suddenly, The P lunges towards you and penetrates your arm with an unseen weapon.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The P: Leave. Now.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}'s arm is literally burning! There is no other option, you must leave.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("But...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Never mind, there's no way you'd ever be able to beat someone like him.");
+                        }
                     }
 
                     else if (selection1f == "2")
