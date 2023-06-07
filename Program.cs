@@ -1487,11 +1487,25 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine("The P: Leave. Now.");
                             Thread.Sleep(1000);
-                            Console.WriteLine($"{myName}'s arm is literally burning! There is no other option, you must leave.");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("But...");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Never mind, there's no way you'd ever be able to beat someone like him.");
+                            Console.WriteLine($"{myName}'s arm is literally burning! There is no other option, you must leave. \n1. Leave \n2. Now");
+                            string wheat2 = Console.ReadLine();
+                            if (wheat2 == "1" | wheat2 == "2")
+                            {
+                                Console.WriteLine("There's no way you'd ever be able to beat someone like him.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You keep on walking in the direction you came from, your arm still in pain from a burning sensation.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("Slowly, the forest became darker... Whispers from the woods came from either side, echoing in your mind.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"Darker and darker thoughts pop into {myName}'s mind... \n{myName} felt useless, they couldn't find the beast, they couldn't beat the man in the Sea of Wheat, \nthey couldn't even muster up the courage to fight that man outside the Saber Guild...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("They wanted to destroy everything... So that they'll be on top.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName} was nearing the village gate until from the ground...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("A skeletal figure appears from the ground");
+
+                            }
                         }
                     }
 
