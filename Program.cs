@@ -3208,6 +3208,37 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine("Guards: GET THEM!");
                             Console.WriteLine($"*The guards grab {myName} and sends them to prison.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"In their cell... {myName} is bombarded with whispers from an unknown source... {myName} notices a black tar oozing up from the floor...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                            string dark1 = Console.ReadLine();
+                            if (dark1 == "1" | dark1 == "2")
+                            {
+                                Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: Wait wha-?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("A roar");
+                            }
                         }
 
                         else if (selection1d == "2")
@@ -3217,11 +3248,38 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine("Guards: ARGH! CAN'T SEE ANYTHING! SOMEONE GET THEM!");
                             Thread.Sleep(1000);
-                            Console.WriteLine("Shop owner: Hey you have to pay for th-\n Where'd they go?!");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("...");
-                            Thread.Sleep(1000);
                             Console.WriteLine($"{myName}: *I've managed to escape the guards but it looks like I'm no longer safe in this village...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName} was nearing the village gate until they notice a black tar slowly bubbling up from the ground..");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify, they're no longer whispers... They're screams... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                            string dark1 = Console.ReadLine();
+                            if (dark1 == "1" | dark1 == "2")
+                            {
+                                Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: Wait wha-?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("A roar");
+                            }
                         }
                     }
 
@@ -3302,6 +3360,37 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine("Guards: GET THEM!");
                             Console.WriteLine($"*The guards grab {myName} and sends them to prison.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"In their cell... {myName} is bombarded with whispers from an unknown source... {myName} notices a black tar oozing up from the floor...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                            string dark1 = Console.ReadLine();
+                            if (dark1 == "1" | dark1 == "2")
+                            {
+                                Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}: Wait wha-?");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("A roar");
+                            }
                         }
 
                         else if (selection2b == "2")
@@ -3311,69 +3400,35 @@ if (menuSelect == "1")
                             Thread.Sleep(1000);
                             Console.WriteLine("Guards: ARGH! CAN'T SEE ANYTHING! SOMEONE GET THEM!");
                             Thread.Sleep(1000);
-                            Console.WriteLine("Shop owner: Hey you have to pay for th-\nWhere'd they go?!");
+                            Console.WriteLine($"{myName} was nearing the village gate until they notice a black tar slowly bubbling up from the ground..");
                             Thread.Sleep(1000);
-                            Console.WriteLine("...");
+                            Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
                             Thread.Sleep(1000);
-                            Console.WriteLine($"{myName}: 'I've managed to escape the guards but it looks like I'm no longer safe in this village...'");
+                            Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
                             Thread.Sleep(1000);
-                            Console.WriteLine("Argh, how do I get out of this village now without having the guards come after me?");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Unknown voice: Seems like you've ended in quite the predicament there...");
-                            Thread.Sleep(1000);
-                            Console.WriteLine($"{myName}: Who's there?!");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Unknown voice: Right, I should probably introduce myself before we continue");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Unkown voice: Ever heard of the... Grim Reaper?");
-                            Thread.Sleep(1000);
-                            Console.WriteLine($"{myName}: Yeah right, must be some cheesy name you just made up to make yourself sound 'intimidating'");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Grim Reaper: Well, seeing as you don't believe me, I guess I have no choice but to show you...");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("*A shadowy figure unravels themself as you see the Grim Reaper in front of your very eyes...*");
-                            Thread.Sleep(1000);
-                            Console.WriteLine($"{myName}: Woa- i-I mean, that's a pretty cool costume you got there.");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("Grim Reaper: Regardless of whether or not you believe me, I have come for a separate reason...\nWould you like to join forces and throw everyone in this village into despair?");
-                            Thread.Sleep(1000);
-                            Console.WriteLine("1. Join forces\n2. Decline the offer");
-                            string selection3b = Console.ReadLine();
-
-                            if (selection3b == "1")
+                            Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify, they're no longer whispers... They're screams... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                            string dark1 = Console.ReadLine();
+                            if (dark1 == "1" | dark1 == "2")
                             {
+                                Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Grim Reaper: You have made a wise choice...");
+                                Console.WriteLine("...");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Reach your hand out to recieve your powers");
+                                Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
                                 Thread.Sleep(1000);
-                                Console.WriteLine($"{myName}: *'This sounds really cheesy, but I'll just go with it'\n'I don't seem to have any other choice...'");
+                                Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
                                 Thread.Sleep(1000);
-                                Console.WriteLine($"As {myName} reaches their hand out to the Grim Reaper, they feel strange powers flowing within them.");
+                                Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Grim Reaper: Now you can unleash your wrath upon these mortals");
+                                Console.WriteLine($"{myName}: Wait wha-?");
                                 Thread.Sleep(1000);
-                                Console.WriteLine($"{myName}: I appreciate the fact that you gave me these powers, but you really have to stop making these cheesy statements...");
+                                Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Grim Reaper: That won't be happening anytime soon... Goodbye!");
+                                Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("*The Grim Reaper snaps their fingers and vanishes back to their realm*");
+                                Console.WriteLine($"{myName} tried to scream but all that came out was...");
                                 Thread.Sleep(1000);
-                                Console.WriteLine($"{myName}: Well, with powers like these, I basically have no other option but to destroy.");
-                                Thread.Sleep(1000);
-                                Console.WriteLine("*The guards find you*");
-                                Thread.Sleep(1000);
-                                Console.WriteLine("Guards: There they are. GET THEM!");
-                                Console.WriteLine("1. Kill the guards\n2. Kill the guards");
-                                string selectionDark1 = Console.ReadLine();
-                            }
-
-                            else if (selection3b == "2")
-                            {
-                                Thread.Sleep(1000);
-                                Console.WriteLine($"{myName}: I don't care what offer you give me. I'm not going to end the lives of innocent people");
-                                Thread.Sleep(1000);
-                                Console.WriteLine("Grim Reaper: Very well, it seems that you have made your decision...");
+                                Console.WriteLine("A roar");
                             }
                         }
                     }
