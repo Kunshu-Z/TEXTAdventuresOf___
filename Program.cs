@@ -1501,9 +1501,36 @@ if (menuSelect == "1")
                                 Thread.Sleep(1000);
                                 Console.WriteLine("They wanted to destroy everything... So that they'll be on top.");
                                 Thread.Sleep(1000);
-                                Console.WriteLine($"{myName} was nearing the village gate until from the ground...");
+                                Console.WriteLine($"{myName} was nearing the village gate until they notice a black tar slowly bubbling up from the ground..");
                                 Thread.Sleep(1000);
-                                Console.WriteLine("A skeletal figure appears from the ground");
+                                Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify, they're no longer whispers... They're screams... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                                string wheat3 = Console.ReadLine();
+                                if (wheat3 == "1" | wheat3 == "2")
+                                {
+                                    Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: Wait wha-?");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("A roar");
+                                }
 
                             }
                         }
@@ -1511,7 +1538,105 @@ if (menuSelect == "1")
 
                     else if (selection1f == "2")
                     {
+                        Console.WriteLine($"{myName} picks up the bow and arrows, takes a minimap, thanks the receptionist, \nand goes on their merry way to the Sea of Wheat due east from the village.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("Hour One");
+                        Console.WriteLine("On the road you pass an old manor, abandoned and desolate.");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Two");
+                        Console.WriteLine("You get tired and rest beside a tree trunk, the sun shines still in the early afternoon.");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Three");
+                        Console.WriteLine("You get back up and continue, you come across an abandoned wooden ale keg, only some putrid smelling water inside");
+                        Thread.Sleep(3000);
+                        Console.WriteLine("Hour Three and a half");
+                        Console.WriteLine("You come to what seems to be a literal Sea of Wheat.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("It's a quiet place with only wheat as far as the eye can see...");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("(Is this really just a farm?)");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("...");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("Suddenly you surge with anger.");
+                        Thread.Sleep(1000);
+                        Console.WriteLine($"{myName}: Three and a half hours for a farm? Really!?");
+                        Thread.Sleep(1000);
+                        Console.WriteLine($"{myName} needs to let that anger loose, but how? 1. Fire arrows at literally nothing \n2. Tear the wheat from their roots");
+                        string wheat1 = Console.ReadLine();
+                        if (wheat1 == "1" | wheat1 == "2")
+                        {
+                            Console.WriteLine("After at least an hour of rampaging through the Sea of Wheat, suddenly all the golden wheat turns white, \na burning white, and then.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("HEY! COME HERE");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("A tall figure starts moving towards you in the Sea of White");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The heat intensifies as he gets closer");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: Wh- who are you!?");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The figure: Me? They call me many names - The Piercer, The Puncturer, The Poker - no one has ever known my true name, \nand neither will you, I've given up that life.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The P: Tresspasser, why are you destroying my crops? I've been living here for so long, are you not afraid? \nTo meet the man I once was?");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: I don't even know who you are.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Then maybe I should give you a taste of my power!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}: With what? You have no weapons! You're wearing nothing but a loincloth!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Suddenly, The P lunges towards you and penetrates your arm with an unseen weapon.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("The P: Leave. Now.");
+                            Thread.Sleep(1000);
+                            Console.WriteLine($"{myName}'s arm is literally burning! There is no other option, you must leave. \n1. Leave \n2. Now");
+                            string wheat2 = Console.ReadLine();
+                            if (wheat2 == "1" | wheat2 == "2")
+                            {
+                                Console.WriteLine("There's no way you'd ever be able to beat someone like him.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("You keep on walking in the direction you came from, your arm still in pain from a burning sensation.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("Slowly, the forest became darker... Whispers from the woods came from either side, echoing in your mind.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"Darker and darker thoughts pop into {myName}'s mind... \n{myName} felt useless, they couldn't find the beast, they couldn't beat the man in the Sea of Wheat, \nthey couldn't even muster up the courage to fight that man outside the Saber Guild...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("They wanted to destroy everything... So that they'll be on top.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName} was nearing the village gate until they notice a black tar slowly bubbling up from the ground..");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("A skeletal figure appears from the tar, holding a scythe of some sort...");
+                                Thread.Sleep(1000);
+                                Console.WriteLine($"{myName}, taken aback from this is completely speechless.");
+                                Thread.Sleep(1000);
+                                Console.WriteLine("The figure emanates a dark aura that makes the whispers intensify, they're no longer whispers... They're screams... \nThey want you to join the figure \nThey promise power. \n1. Join the skeletal figure \n2. Refuse the figure");
+                                string wheat3 = Console.ReadLine();
+                                if (wheat3 == "1" | wheat3 == "2")
+                                {
+                                    Console.WriteLine("There is no refusing power... \nYou want this power... \nTo defeat your enemies \nTo go even further beyond mortal comprehension...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The Figure: Hmm... before I give you this power... What do you intend to do with it?");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: This place... This land is cruel... I want to... Destroy it all and make it a better place...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The Figure: Ahh... Very well then... You'll... Be able to destroy at the very least.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}: Wait wha-?");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("The skeletal figure then plunges his hand into your chest, \nimplanting something that causes your body to change rapidly.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName}'s body grew to large proportions, their limbs changing into various animal parts - claws and the like.");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine($"{myName} tried to scream but all that came out was...");
+                                    Thread.Sleep(1000);
+                                    Console.WriteLine("A roar");
+                                }
 
+                            }
+                        }
                     }
                 }
             }
