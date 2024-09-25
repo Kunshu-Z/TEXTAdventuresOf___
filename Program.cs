@@ -36,7 +36,6 @@ Console.WriteLine(" ");
 //Game uses player's inputted name as the title
 Console.WriteLine($"Welcome to The Adventures of {myName}");
 Console.WriteLine("1. Start Game");
-Console.WriteLine("2. Options");
 Console.WriteLine("3. Quit");
 Console.WriteLine("Select your option: ");
 
@@ -3433,13 +3432,6 @@ if (menuSelect == "1")
                         }
                     }
 
-                }
-
-
-                //If the player selects 2 for settings
-                else if (menuSelect == "2")
-                {
-                    Console.WriteLine("Settings:");
                 }
 
                 //If the player selects 3 to quit the game
